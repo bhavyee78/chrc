@@ -69,16 +69,8 @@
     height: 100%;
     margin-bottom: 10px;
   }
-  .carousel-control.right, .carousel-control.left {
-    background-image: none;
-    color: #35302e; 
-  }
-  .carousel-indicators li {
-    border-color:#3a3332;
-  }
-  .carousel-indicators li.active {
-    background-color: #0e0604;
-  }
+ 
+  
   .item h4 {
     font-size: 19px;
     line-height: 1.375em;
@@ -222,21 +214,17 @@ footer {
   background-color: white;
   margin: 9rem;
 }
-.carousel-inner>.item>a>img, .carousel-inner>.item>img{
 
-   height: 100vh;
-    line-height: 1;
-    width: 1509px;
-    min-height: 600px;
-    background-size: cover;
-    background-position: center center;
-    position: relative;
-}
+
 .row {
     margin-right: -15px;
     margin-left: -15px;
     background-color: white;
     padding-top: 50px;
+}
+.head4 h4 {
+font-weight:bold;
+padding-top:15px;
 }
 
 
@@ -267,39 +255,28 @@ footer {
 </nav>
 
 <div id="myCarousel" class="carousel slide" data-ride="carousel">
-
-
     <!-- Indicators -->
     <ol class="carousel-indicators">
       <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
       <li data-target="#myCarousel" data-slide-to="1"></li>
       <li data-target="#myCarousel" data-slide-to="2"></li>
     </ol>
-  
+
     <!-- Wrapper for slides -->
     <div class="carousel-inner">
       <div class="item active">
-        <img src="images/banner1.jpg" alt="Chania">
-        <div class="carousel-caption">
-          
-        </div>
+        <img src="images/banner1.jpg" alt="Los Angeles" style="width:100%;" >
       </div>
-  
+
       <div class="item">
-        <img src="images/banner2.jpg" alt="Chicago">
-        <div class="carousel-caption">
-         
-        </div>
+        <img src="images/banner2.jpg" alt="Chicago" style="width:100%;" >
       </div>
-  
+    
       <div class="item">
-        <img src="images/banner3.jpg" alt="New York">
-        <div class="carousel-caption">
-          
-        </div>
+        <img src="images/banner3.jpg" alt="New york" style="width:100%;" >
       </div>
     </div>
-  
+
     <!-- Left and right controls -->
     <a class="left carousel-control" href="#myCarousel" data-slide="prev">
       <span class="glyphicon glyphicon-chevron-left"></span>
@@ -317,11 +294,10 @@ footer {
   <div class="row">
     <div class="col-sm-8">
       <h2 style="padding-top: 43px;
-      font-style: inherit;
-      padding-left: 70px;">ABOUT US
+      font-style: inherit;">ABOUT US
       </h2><br>
       <h4 style="padding-top: 0px;
-      padding-left: 58px;"><b>CHRC Design and Build </b> a dream come true by <b>Vanshaj Raj Bahal</b> in June 2019 with an aim
+      "><b>CHRC Design and Build </b> a dream come true by <b>Vanshaj Raj Bahal</b> in June 2019 with an aim
 to challenge the construction Industry and manage it in such a way in which each and every
 project is to be handed over with an assured and guaranteed time, cost and scope, as promised by
 us.
@@ -370,23 +346,28 @@ PMBOK.
   <h2 style="text-align: center;">SERVICES</h2>
   <h4 style="text-align: center;">What services we offer to you</h4>
   
+  <div class="head4">
   <div class="row5 slideanim">
     <div class="col-sm-4">
-      <span><img src="images/kitchen.PNG" style="max-height: 100px;max-width: 109px;" ></span>
+	
+      <span><img src="images/kitchen.PNG" style="max-height: 200px;max-width: 209px;" ></span>
       <h4>Design & Built</h4>
     </div>
     <div class="col-sm-4">
-      <span><img src="images/project.png" style="max-height: 100px;max-width: 109px;" ></span>
+      <span><img src="images/project.png" style="max-height: 200px;max-width: 209px;" ></span>
       <h4>Project management and consultancy</h4>
     </div>
     <div class="col-sm-4">
-      <span><img src="images/Capture.PNG" style="max-height: 100px;max-width: 109px;" ></span>
+      <span><img src="images/Capture.PNG" style="max-height: 200px;max-width: 209px;" ></span>
       <h4>Design Coordination via BIM</h4>
-    </div>
+    
+
+	</div>
+  </div>
   </div>
   </div>
   </section>  
-  <br><br>
+  
   
 
 <!-- Container (Portfolio Section) -->
@@ -506,7 +487,15 @@ PMBOK.
         
 
         <h2 class="footer-heading mb-4">Follow Us</h2>
-        <a href="https://www.instagram.com/bhavyee/" target="_blank"><i class="fa fa-instagram" style="font-size:40px;color: #d60f32;"></i></a>
+         <a href="https://www.instagram.com/bhavyee/" target="_blank"><i class="fa fa-instagram" style="font-size:40px;color: #d60f32;padding-right:10px;"></i></a>
+             <a href="https://www.facebook.com/moon.suri.33/ " target="_balnk"><i class="fa fa-facebook-square" style="font-size:41px;color: #4848f5;padding-right:10px;"></i>
+</a>
+              <a href="https://twitter.com/suri_bhavy " target="_blank"><i class="fa fa-twitter-square" style="font-size:43px;color: #70d0f5;padding-right:10px;"></i>
+</a>
+			  <a href="https://github.com/bhavyee78 " target="_balnk"><i class="fa fa-github" style="font-size:43px;color:grey;padding-right:10px;"></i>
+</a>
+			 <a href="https://www.linkedin.com/in/bhavy-suri-1773a0155/" target="_balnk"><i class="fa fa-linkedin-square" style="font-size:43px;color:#5050ec;padding-right:10px;"></i>
+</a>
         
       </div>
     </div>
@@ -561,6 +550,13 @@ $(document).ready(function(){
     });
   });
 })
+function init_carousel() {
+            H = +($(window).height() /* -height here  */); // or $('.carousel-inner') as you want ...
+            $('.carousel-inner').css('height', H + 'px');
+        }
+        window.onload = init_carousel;
+        init_carousel();
+
 </script>
 
 </body>
